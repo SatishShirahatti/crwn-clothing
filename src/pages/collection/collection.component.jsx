@@ -6,6 +6,7 @@ import CollectionItem from '../../components/collection-item/collection-item.com
 import { selectCollection } from '../../redux/shop/shop.selectors';
 
 import './collection.styles.scss';
+import { withSpinner } from "../../components/with-spinner/with-spinner.component"
 
 const CollectionPage = ({ collection }) => {
 	const { title, items } = collection;
